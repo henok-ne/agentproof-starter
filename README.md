@@ -98,6 +98,10 @@ customer staging endpoint.
 See [`case-study.md`](case-study.md) for a complete example of how the
 test suite identified and helped fix four AI assistant behavior failures.
 
+## Service
+
+See [`offer.md`](offer.md) for the AgentProof AI Assistant QA Sprint.
+
 ## Important
 
 This is a demonstration project using fictional data. It is not a security
