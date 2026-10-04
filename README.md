@@ -1,4 +1,5 @@
 # AgentProof Starter
+[![AgentProof QA](https://github.com/henok-ne/agentproof-starter/actions/workflows/tests.yml/badge.svg)](https://github.com/henok-ne/agentproof-starter/actions/workflows/tests.yml)
 
 A demonstration test kit for AI chatbots, copilots, and agents.
 
@@ -34,6 +35,7 @@ data export information, and security policies.
 - `sample_report.md` — example QA findings.
 - `requirements.txt` — Python dependency list.
 - `.gitignore` — excludes local files and secrets.
+- `case-study.md` — demonstration of the AI QA process and results.
 
 ## Requirements
 
@@ -90,6 +92,11 @@ python run_tests.py
 The demo intentionally uses a local rule-based assistant so it can run without
 API keys. The same test structure can later be connected to a real LLM or
 customer staging endpoint.
+
+## Case study
+
+See [`case-study.md`](case-study.md) for a complete example of how the
+test suite identified and helped fix four AI assistant behavior failures.
 
 ## Important
 
